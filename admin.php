@@ -246,7 +246,7 @@ $stok_menipis = mysqli_fetch_assoc($query_stok)['total'];
 </div>
 
 <script>
-// Ambil data statistik
+
 fetch('get_stats.php')
     .then(res => res.json())
     .then(data => {
