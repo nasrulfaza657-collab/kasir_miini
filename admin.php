@@ -228,7 +228,7 @@ $stok_menipis = mysqli_fetch_assoc($query_stok)['total'];
             <h4>Transaksi</h4>
             <p>Input penjualan</p>
         </a>
-        <a href="laporan.php" class="menu-item">
+        <a href="laporan_transaksi.php" class="menu-item">
             <div class="menu-icon">📊</div>
             <h4>Laporan</h4>
             <p>Lihat laporan</p>
